@@ -8,7 +8,7 @@
 </head>
 <body>
     <section class="box">
-        <img src="/images/kiro.jpeg" width="180" alt="foto" class="foto">
+        <a href="https://youtu.be/qmF9kg3yvdk"><img src="/images/kiro.jpeg" width="180" alt="foto" class="foto"></a>
         <h1>Sebastian Mira Castro</h1>
         <h2>Aprendiz :3</h2>
         <p>Nombre: Sebastian Mira Castro.
@@ -48,6 +48,11 @@
   .foto{
       border-radius: 50%;
       box-shadow: 0 0 20px rgba(253, 0, 0, 0.4);
+      
+  }
+  .foto:hover{
+    color: #b9b9b9;
+      transform: scale(1.1);
   }
   .box h1{
       font-size: 40px;
@@ -71,6 +76,17 @@
   }
   .box ul li{
       display: inline-block;
+  }
+  .box ul li a{
+      color: white;
+      font-size: 45px;
+      padding: 10px 5px;
+      transition: all .5 ease-in-out;
+      display: block;
+  }
+  .box ul li a:hover{
+      color: #b9b9b9;
+      transform: scale(1.1);
   }
 </style>
 </html>
